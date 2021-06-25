@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* F96645 orange
+606C38 hijau
+283618 h tua
+BC6C25 coklat
+DDA15E c muda
+FEFAE0 */
+
+#navbar{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar-brand{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.navbar{
+     background-color: #4d4a4a;
+      
+}
+
+
+#keranjang{
+    font-family: 'Roboto', sans-serif;
+    display: none;
+}
+
+
+#home{
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url("../asset/img/dasboard4.jpg");
+    background-size: 100%;
+    background-position: center; 
+    background-blend-mode:darken;
+    filter: grayscale(30%);
+}
+
+#home-con{
+    height: 70%;
+    box-sizing: border-box;
+}
+
+    .tittle{
+        font-size: 100px;
+        font-family: 'Pacifico', cursive;
+        
+        font-weight: bold;
+        color: rgb(230, 220, 220);
+    }
+#name-produk{
+    font-family: 'Roboto', sans-serif;
+    color: #461104;
+}
+    #name-produk-dec{
+
+        font-family: 'Roboto', sans-serif;
+        color: #F96645;
+    }
+
+.galery{
+    box-sizing: border-box;
+    height: 35vh;
+}
+
+#galery-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #F96645;
+}
+
+.galery-image{
+    transition: transform .3s;
+}
+
+.galery-image:hover{
+    transform:scale(1.5,1.5);
+    z-index: -2;
+}
+
+
+
+.card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgb(238, 235, 235);
+}
+    .card-img-top{
+        border-radius: 10px 10px 0 0;
+    }
+    #desc-produk {
+        color:#F96645;
+    }
+    #btn-action{
+        background-color:#F96645;
+    }
+    #btn-action:active{
+        transform: translateY(4px);
+        background-color:#f3775c;
+    }
+
+.badge{
+    cursor: pointer;
+}
+
+
+#alamat{
+    color:#283618 ;
+    font-family: 'Roboto', sans-serif;
+}
+    #alamat-body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    #mapid { 
+        height: 400px;
+        width: 400px; 
+    }
+
+#tot{
+    background-color: #F96645;
+}
+
+#footer{
+    font-family: 'Roboto', sans-serif;
+}
+    .footer-dec{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+    }
